@@ -15,3 +15,4 @@ plot(x = input$wt, y = input$mpg,
      ylim = c(10, 25),	 
      main = "Weight vs Milage"
 )
+print("End of the code....")
