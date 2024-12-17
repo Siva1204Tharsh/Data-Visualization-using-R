@@ -16,3 +16,10 @@ plot(x = input$wt, y = input$mpg,
      main = "Weight vs Milage"
 )
 print("End of the code....")
+print("asdfgyhujikldfghjk")
+
+# Multiple Box plots, each representing
+# an Air Quality Parameter
+boxplot(input[, 0:4], 
+        main ='Box Plots for Air Quality Parameters')
+
