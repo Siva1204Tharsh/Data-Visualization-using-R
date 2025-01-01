@@ -18,6 +18,8 @@ plot(x = input$wt, y = input$mpg,
 print("End of the code....")
 print("asdfgyhujikldfghjk")
 
+data <- read.csv("path/to/your/file.csv")
+
 # Multiple Box plots, each representing
 # an Air Quality Parameter
 boxplot(input[, 0:4], 
